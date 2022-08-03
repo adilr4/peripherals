@@ -1,0 +1,11 @@
+#include "fir.h"
+///wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+/// 20-May-2017
+/// Low pass & High pass FIR Symmetrical Filter, First Half of coefficients 
+///---------------------------------------------------------------------
+
+const float lpcoeff1[16] = {//1kHz
+	-0.0003,-0.0019,-0.0025, 0.0065, 0.0373, 0.0938, 0.1605, 0.2065, 
+	 0.2065, 0.1605, 0.0938, 0.0373, 0.0065,-0.0025,-0.0019,-0.0003
+};
+
